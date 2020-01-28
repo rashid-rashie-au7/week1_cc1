@@ -1,0 +1,20 @@
+mark1 =input("Enter the mark of Subject1 = ")
+mark2 =input("Enter the mark of Subject2 = ")
+mark3 =input("Enter the mark of Subject3 = ")
+mark4 =input("Enter the mark of Subject4 = ")
+mark5 =input("Enter the mark of Subject5 = ")
+total_marks = int(mark1) + int(mark2) + int(mark3) + int(mark4) + int(mark5)
+print("total marks = ",total_marks)
+avg_mark = total_marks//5
+print("total marks = ",avg_mark)
+if avg_mark >= 90:
+  print("A Grade")
+elif avg_mark >= 70 & avg_mark < 90: 
+  print("B Grade")
+elif avg_mark >= 50 & avg_mark < 70: 
+  print("C Grade")  
+elif avg_mark >= 30 & avg_mark < 50: 
+  print("D Grade")
+elif avg_mark < 30: 
+  print("E Grade")
+

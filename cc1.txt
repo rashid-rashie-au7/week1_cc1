@@ -1,0 +1,7 @@
+Q1.
+	32 bit Integer can hold only(-2147483648 to 2147483647) and 32 bit float can hold Single precision float: sign bit, 8 bits exponent, 23 bits mantissa
+
+Q2. 1 bytes = 8 bits
+    1 MB = 8388608 Bits
+    1 GB = 8589934592 Bits 
+	

@@ -1,0 +1,15 @@
+usr_name = input("Enter the Username = ")
+pwd = input("Enter the Password = ")
+username= "Priyesh"
+passwrd = "password"
+print(type(usr_name))
+print(type(pwd))
+if usr_name == username and pwd == passwrd:
+  print("Enterd the System")
+elif usr_name != username and pwd == passwrd:
+  print("Username Doesnot Exist")
+elif usr_name == username and pwd != passwrd:
+  print("Passwords donot match")
+else:
+  print("Username and Password are Incorrect")
+
